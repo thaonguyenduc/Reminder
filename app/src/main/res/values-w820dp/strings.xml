@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Reminders</string>
     <string name="new_reminder">new Reminder</string>
     <string name="exit">exit</string>
 </resources>
