@@ -7,10 +7,16 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/dark_grey"
     tools:context="structis.com.reminders.ReminderActivity">
 
-    <TextView
+    <ListView
+        android:id="@+id/reminders_lst_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/dark_grey"
+        tools:listitem="@layout/reminders_rows"/>
 </RelativeLayout>
