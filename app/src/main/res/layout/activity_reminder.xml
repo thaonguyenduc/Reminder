@@ -9,7 +9,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@color/dark_grey"
     tools:context="structis.com.reminders.ReminderActivity">
-
+    <include layout="@layout/toolbar"></include>
     <ListView
         android:id="@+id/reminders_lst_view"
         android:layout_width="wrap_content"

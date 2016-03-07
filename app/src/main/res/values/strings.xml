@@ -2,4 +2,12 @@
     <string name="app_name">Reminders</string>
     <string name="new_reminder">new Reminder</string>
     <string name="exit">exit</string>
+    <string name="add_new_event_title" >Add New Event</string>
+    <string name="lbl_register">Register User</string>
+    <string name="lbl_email_hint">xx@xxx.com</string>
+    <string name="lbl_password_hint"></string>
+    <string name="lbl_btn_signup">Signup</string>
+    <string name="lbl_btn_add_new">Add New</string>
+    <string name="lbl_btn_cancel">Cancel</string>
+    <string name="lbl_event_hint">Event Name</string>
 </resources>

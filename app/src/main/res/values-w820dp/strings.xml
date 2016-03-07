@@ -2,4 +2,7 @@
 <resources>
     <string name="new_reminder">new Reminder</string>
     <string name="exit">exit</string>
+    <string name="lbl_register">Register User</string>
+    <string name="lbl_email_hint">Invalid Email</string>
+    <string name="lbl_password_hint">Invalid Password</string>
 </resources>
