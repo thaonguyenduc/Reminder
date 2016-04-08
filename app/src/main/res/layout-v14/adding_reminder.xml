@@ -33,11 +33,61 @@
             android:inputType="text"
             android:padding="12dp" />
 
-        <CheckBox
+        <EditText
+            android:id="@+id/editText_event_loc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:ems="10"
+            android:hint="@string/lbl_event_loc_hint"
+            android:inputType="text"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btn_event_date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Important"
-            android:id="@+id/chkImportant" />
+            android:background="#fff"
+            android:text="@string/pick_date"
+            android:onClick="showDatePickerDialog"
+            android:padding="12dp"
+            android:enabled="true" />
+        <EditText
+            android:id="@+id/txtDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:text=""
+            android:editable="false"
+            android:enabled="true" />
+
+        <Button
+            android:id="@+id/btn_event_startTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:text="@string/pick_time"
+            android:onClick="showTimePickerDialog"
+            android:padding="12dp"
+            android:enabled="true" />
+        <EditText
+            android:id="@+id/txtStartTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:text=""
+            android:editable="false" />
+
+        <EditText
+            android:id="@+id/editText_event_organizer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:ems="10"
+            android:hint="@string/lbl_event_organizer_hint"
+            android:inputType="text"
+            android:padding="12dp" />
+
         <Button
             android:id="@+id/btn_addNew"
             android:layout_width="match_parent"

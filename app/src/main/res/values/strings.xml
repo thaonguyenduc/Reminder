@@ -10,4 +10,8 @@
     <string name="lbl_btn_add_new">Add New</string>
     <string name="lbl_btn_cancel">Cancel</string>
     <string name="lbl_event_hint">Event Name</string>
+    <string name="lbl_event_loc_hint">Event Location</string>
+    <string name="lbl_event_organizer_hint">Organizer Name</string>
+    <string name="pick_date">Event Date</string>
+    <string name="pick_time">Start Time</string>
 </resources>

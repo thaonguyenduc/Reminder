@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
-    tools:context=".AddingReminderActivity">
+    tools:context=".AddingReminderActivity"
+    tools:targetApi="11">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -33,6 +34,25 @@
             android:ems="10"
             android:hint="@string/lbl_event_hint"
             android:inputType="text"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/editText_event_loc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:ems="10"
+            android:hint="@string/lbl_event_hint"
+            android:inputType="text"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btn_event_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:text="@string/pick_date"
+            android:onClick="showDatePickerDialog"
             android:padding="12dp" />
 
         <CheckBox
